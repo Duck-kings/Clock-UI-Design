@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #0e0d1c;
+    font-family: 'Vampiro One', cursive;
+}
+.container{
+    height: 50vh;
+    width: 60vw;
+    position: absolute;
+    left: 20vw;
+    top: 15vh;
+}
+.hr{
+    height: 130px;
+    width: 125px;
+    background-color: #160a8a;
+    position: absolute;
+    left: 9%;
+    top: 12%;
+    color: #fff;
+    border-radius: 5px;
+}
+.hr_rev{
+    opacity: 0.6;
+    height: 130px;
+    width: 125px;
+    background-color: #160a8a;
+    position: absolute;
+    left: 9%;
+    top: 40.5%;
+    color: #fff;
+    border-radius: 5px;
+    filter: blur(0.6px);
+}
+.mn{
+    height: 130px;
+    width: 125px;
+    background-color: #160a8a;
+    position: absolute;
+    left: 39%;
+    top: 12%;
+    color: #fff;
+    border-radius: 5px;
+}
+.mn_rev{
+    opacity: 0.6;
+    height: 130px;
+    width: 125px;
+    background-color: #160a8a;
+    position: absolute;
+    left: 39%;
+    top: 40.5%;
+    color: #fff;
+    border-radius: 5px;
+    filter: blur(0.6px);
+}
+.sc{
+    height: 130px;
+    width: 125px;
+    background-color: #160a8a;
+    position: absolute;
+    left: 69%;
+    top: 12%;
+    color: #fff;
+    border-radius: 5px;
+}
+.sc_rev{
+    opacity: 0.6;
+    height: 130px;
+    width: 125px;
+    background-color: #160a8a;
+    position: absolute;
+    left: 69%;
+    top: 40.5%;
+    color: #fff;
+    border-radius: 5px;
+    filter: blur(0.6px);
+}
+.span_mn, .span_hr, .span_sc {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    color: #fff;
+    font-size: 17px;
+    background: #150b70;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.span_mn_rev, .span_hr_rev, .span_sc_rev {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 25%;
+    color: #fff;
+    font-size: 17px;
+    background: #150b70;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 3px;
+    transform: rotateX(180deg);
+}
+.p_mn, .p_hr, .p_sc{
+    position: absolute;
+    top: -45%;
+    height: 75%;
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    line-height: 95px;
+}
+.p_mn_rev, .p_hr_rev, .p_sc_rev{
+    position: absolute;
+    bottom: -45%;
+    height: 75%;
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    line-height: 95px;
+    transform: rotateX(180deg);
+}
+
